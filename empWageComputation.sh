@@ -32,4 +32,4 @@
 	done
 	totalSalary=$(calcDailyWage $(($totalEmpHr))) 
 	echo "Daily Wage " ${empDailyWage[@]}
-	echo "Employee has earned Rs.$totalSalary salary in a month ( Total working hour : $totalEmpHr )"
+	echo "All Keys " ${!empDailyWage[@]}
